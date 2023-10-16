@@ -1,8 +1,8 @@
 // array initialize
 
 const arr=[2,3,4,5,4];
-const arr2=[3,4,"lucky",35.4,'c'];
-const arr3=new Array(3,5,3,5,2,6);
+// const arr2=[3,4,"lucky",35.4,'c'];
+// const arr3=new Array(3,5,3,5,2,6);
 console.log(arr);
 // console.log(arr2);
 // console.log(arr3);
@@ -51,6 +51,38 @@ console.log(arr);
 // console.log(arr);
 
 // console.log("lucky" ,arr);
+
+
+
+
+/*combine two array*/
+
+const arrf1=["lucky","sudhanshu","yash","harshit","jayant M"];
+const arrf2=["sourabh","harsh","deepanshu","jayant D"];
+// const arrf=[...arrf1,...arrf2]; //split all element and add without changing existing array
+// const arrf=arrf1.concat(arrf2); //not change arrf1 and combine two array
+// console.log(arrf1);
+// console.log(arrf);
+
+// const arrn=[1,2,3,[4,5,6],7,[8,9,[10,11,[12,13]]]];
+// const arrnm=arrn.flat(Infinity);
+// console.log(arrn);
+// console.log(arrnm);
+
+console.log(Array.isArray("Hitesh"));
+console.log(Array.from("Hitesh"));
+console.log(Array.from({name:"Hitesh"})); // return an empty array
+
+let s1=100;
+let s2=200;
+let s3=300;
+
+console.log(Array.of(s1,s2,s3));
+
+
+
+
+
 
 
 
